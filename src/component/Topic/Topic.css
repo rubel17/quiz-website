@@ -1,0 +1,23 @@
+.icons{
+    box-shadow: 0 15px 25px rgba(129, 124, 124, 0.6);
+    margin-top: 40px;
+    border: 1px solid peru;
+
+}
+.icons img{
+    background-color:grey;
+    width: 250px;
+    height: 250px;
+}
+.icons-info{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.button{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 5px;
+    border-radius: 5px;
+}

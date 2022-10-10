@@ -1,0 +1,18 @@
+.info-container{
+    margin-top: 20px;
+    border: 1px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.info-container img{
+    margin-right: 30px;
+    width: 200px;
+    height: 200px;
+}
+.icons-container{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}

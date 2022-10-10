@@ -1,0 +1,14 @@
+.options-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.option{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    padding-left:  30px;
+    width: 400px;
+    height: 80px;
+    border: 1px solid grey;
+  
+}

@@ -7,9 +7,10 @@ const Options = ({options, optionhandler}) => {
     return (
         <div className='options-container'>
             {
-                options.map(option => <h5 
+                options.map((option, idx) => <h5 
+                    key={idx}
                      className='option'>
-                    <Link onClick={() => optionhandler(option)}>
+                    <Link className='option-link' onClick={() => optionhandler(option)}>
                     <input type="radio" value="Male" name="gender" /> </Link>
                     {option}
                     </h5>)

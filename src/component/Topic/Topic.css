@@ -15,9 +15,15 @@
     align-items: center;
 }
 .button{
+   
+    display: flex;
     text-decoration: none;
     color: white;
     background-color: blue;
     padding: 5px;
     border-radius: 5px;
+}
+
+.home-total{
+    text-align: center;
 }

@@ -1,4 +1,6 @@
 .info-container{
+    margin-left: 55px;
+    margin-right: 55px;
     margin-top: 20px;
     border: 1px solid purple;
     display: flex;

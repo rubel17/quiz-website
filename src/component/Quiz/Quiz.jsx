@@ -8,7 +8,7 @@ const Quiz = () => {
     // console.log(quiz.data.questions);
     return (
         <div className='quiz-container'>
-            <p>{quiz.data.name}</p>
+            <h4 className='mt-3 text-danger'>Quiz Name: {quiz.data.name}</h4>
             <h2>Total Quiz: {quiz.data.questions.length}</h2>
 
             {

@@ -17,10 +17,10 @@ const Topic = ({tIcon}) => {
             <div className="icons">
                 <img src={logo} alt="" />
                 <div className='home-total'>
-            <h4>{name}:Total Quiz:{total}</h4>
+            <h6>{name}:Total Quiz:{total}</h6>
             </div>
             <div className='icons-info'>
-                 <p>{name}</p>
+                 <h6>{name}</h6>
                 <Link to= {`/quiz/ ${id}`} className='button'>Start Practice<ArrowRight/></Link>
             </div>
             

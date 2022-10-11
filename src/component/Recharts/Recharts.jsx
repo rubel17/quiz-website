@@ -10,17 +10,6 @@ const Recharts = ({topics}) => {
     return (
         <div>
     <div className='my-5'>
-        <h4 className='m-5 text-primary'><u>Total Data Info:</u></h4>
-    <ResponsiveContainer width="100%" height={500}>
-    <LineChart width={400} height={500} data={data}>
-            <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip></Tooltip>
-          <Line type="monotone" dataKey="total" stroke="#8884d8" strokeWidth={2} />
-        </LineChart>
-    </ResponsiveContainer>
-    </div>
-    <div className='my-5'>
     <h4 className='m-5 text-info'><u>Id Data Info:</u></h4>
        <ResponsiveContainer width="100%" height={500}>
        <AreaChart
@@ -41,6 +30,18 @@ const Recharts = ({topics}) => {
           <Area type="monotone" dataKey="id" stroke="#8884d8" fill="#8884d8" />
         </AreaChart>
        </ResponsiveContainer>
+    </div>
+
+    <div className='my-5'>
+        <h4 className='m-5 text-primary'><u>Total Data Info:</u></h4>
+    <ResponsiveContainer width="100%" height={500}>
+    <LineChart width={400} height={500} data={data}>
+            <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip></Tooltip>
+          <Line type="monotone" dataKey="total" stroke="#8884d8" strokeWidth={2} />
+        </LineChart>
+    </ResponsiveContainer>
     </div>
 </div>
 );

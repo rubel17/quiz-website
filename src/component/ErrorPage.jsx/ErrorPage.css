@@ -1,0 +1,12 @@
+.error-img{
+    /* text-align: center; */
+    width: 500px;
+    height: 500px;
+}
+.link{
+    text-decoration: none;
+    background-color: blue;
+    padding: 15px;
+    color: white;
+    margin-bottom: 30px;
+}

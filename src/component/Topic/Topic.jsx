@@ -4,7 +4,7 @@ import './Topic.css';
 import { ArrowRight} from "heroicons-react";
 
 const Topic = ({tIcon}) => {
-    console.log(tIcon);
+    // console.log(tIcon);
     const {logo,name,id,total } =tIcon;
     // const buttonhandler = (id) =>{
     //     console.log(id);

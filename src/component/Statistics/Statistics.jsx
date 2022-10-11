@@ -1,9 +1,14 @@
-import React from 'react';
+// import React, { useState } from 'react';
+import { useLoaderData } from 'react-router-dom';
+import Recharts from '../Recharts/Recharts';
 
 const Statistics = () => {
+    const topics = useLoaderData();
+    // console.log(topics);
+ 
     return (
         <div>
-            <h3>This is statistics</h3>
+            <Recharts topics ={topics}></Recharts>
         </div>
     );
 };

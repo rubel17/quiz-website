@@ -17,3 +17,44 @@
 .option-link{
     margin-right: 20px;
 }
+
+@media only screen and (max-width: 767px) {
+    .options-container{
+        padding: 80px;
+        border-radius: 5px;
+        background-color:cadetblue;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .option{
+        font-weight: bold;
+        font-size: 27px;
+        margin: 0px;
+        margin-top: 15px;
+        border: 1px solid snow;
+      
+    }
+    .option-link{
+        margin-right: 15px;
+    }
+
+}
+@media only screen and (max-width: 991px) and (min-width: 768px)  {
+    .options-container{
+        padding: 80px;
+        border-radius: 5px;
+        background-color:rgb(244, 90, 241);
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .option{
+        font-weight: bold;
+        font-size: 27px;
+        margin: 0px;
+        margin-top: 15px;
+        border: 1px solid snow;
+      
+    }
+    .option-link{
+        margin-right: 15px;
+    }
+
+}

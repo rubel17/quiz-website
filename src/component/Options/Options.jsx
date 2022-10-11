@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import './Options.css';
 
 const Options = ({options, optionhandler}) => {
-    // console.log(options);
     return (
         <div className='options-container'>
             {

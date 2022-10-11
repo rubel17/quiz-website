@@ -12,10 +12,10 @@ const Quiz = () => {
             <h2>Total Quiz: {quiz.data.questions.length}</h2>
 
             {
-               quiz.data.questions.map(qus => <QuizCard
+               quiz.data.questions.map((qus, idx) => <QuizCard
                key={qus.id}
                qus= {qus}
-               
+               idx= {idx+1}
                ></QuizCard>) 
             }
         </div>

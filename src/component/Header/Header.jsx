@@ -4,11 +4,11 @@ import './Header.css';
 
 const Header = () => {
     return (
-        <nav className='header'>
+        <nav className='header d-md-flex'>
         <div className='icon'>
             <h3>Jitun By Quiz</h3>
         </div>
-        <div>
+        <div className=''>
             <Link to='/'>Home</Link>
           <Link to="/topics">Topics</Link>
           <Link to="/statistics">Statistics</Link>

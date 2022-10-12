@@ -8,7 +8,7 @@ WebSite Name: JITUN BY QUIZ.
 
 ## Available Live Project
 
-Live :
+Live : https://timely-mochi-ccdaa9.netlify.app/
 
 ### Project Info
 

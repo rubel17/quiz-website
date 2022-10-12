@@ -4,7 +4,6 @@ import Recharts from '../Recharts/Recharts';
 
 const Statistics = () => {
     const topics = useLoaderData();
-    // console.log(topics);
  
     return (
         <div>

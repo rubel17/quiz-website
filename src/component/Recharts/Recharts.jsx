@@ -6,7 +6,6 @@ import { LineChart, Line, XAxis,Tooltip, YAxis, AreaChart, CartesianGrid, Area, 
 const Recharts = ({topics}) => {
   
     const {data} =topics;
-    console.log(data); 
     return (
         <div>
     <div className='my-5'>

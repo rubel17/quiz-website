@@ -5,7 +5,6 @@ import QuizCard from '../QuizCard/QuizCard';
 
 const Quiz = () => {
     const quiz = useLoaderData();
-    // console.log(quiz.data.questions);
     return (
         <div className='quiz-container'>
             <h4 className='mt-3 text-danger'>Quiz Name: {quiz.data.name}</h4>
@@ -16,8 +15,7 @@ const Quiz = () => {
                key={qus.id}
                qus= {qus}
                idx= {idx+1}
-               ></QuizCard>) 
-            }
+               ></QuizCard>) }
         </div>
     );
 };

@@ -8,6 +8,7 @@ const Recharts = ({topics}) => {
     const {data} =topics;
     return (
         <div>
+          <h4  className='mx-auto w-25 my-1 text-info'><u>Two Recharts</u></h4>
     <div className='my-5'>
     <h4 className='m-5 text-info'><u>Id Data Info:</u></h4>
        <ResponsiveContainer width="100%" height={500}>

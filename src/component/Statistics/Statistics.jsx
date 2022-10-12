@@ -1,4 +1,3 @@
-// import React, { useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import Recharts from '../Recharts/Recharts';
 

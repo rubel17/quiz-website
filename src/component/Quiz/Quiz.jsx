@@ -7,7 +7,7 @@ const Quiz = () => {
     const quiz = useLoaderData();
     return (
         <div className='quiz-container'>
-            <h4 className='mt-3 text-danger'>Quiz Name: {quiz.data.name}</h4>
+            <h4 className='my-3 q-name text-danger'>Quiz Name: <u>{quiz.data.name}</u></h4>
             <h2>Total Quiz: {quiz.data.questions.length}</h2>
 
             {

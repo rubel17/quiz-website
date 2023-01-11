@@ -10,11 +10,14 @@ const Quiz = () => {
             <h4 className='my-3 q-name text-danger'>Quiz Name: <u>{quiz.data.name}</u></h4>
             <h2>Total Quiz: {quiz.data.questions.length}</h2>
 
+
             {
+                
                quiz.data.questions.map((qus, idx) => <QuizCard
                key={qus.id}
                qus= {qus}
                idx= {idx+1}
+            
                ></QuizCard>) }
         </div>
     );

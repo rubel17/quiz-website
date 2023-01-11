@@ -36,8 +36,9 @@ const   QuizCard = ({qus, idx}) => {
             <div>
                 
                 <div className='question-container'>
-                <h4>Quiz {idx} :{question}</h4>
-                <Link className='eye' onClick={() => rightAnswer(correctAnswer)}><Eye/></Link>
+                    
+            <h4>Quiz {idx} :{question.replace(/(<p[^>]+?>|<p>|<\/p>)/g, "")}</h4>
+                     <Link className='eye' onClick={() => rightAnswer(correctAnswer)}><Eye/></Link>
                 </div>
                 <Options 
                 options={options}

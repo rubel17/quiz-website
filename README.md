@@ -12,11 +12,11 @@ Live : https://timely-mochi-ccdaa9.netlify.app/
 
 ### Project Info
 
-*This is Quiz WebSite.
-*Play Quiz And Skill Your Programming learning.
-*In this quiz you will get to review all you know about react, Javascript, css , and git.
-*Play this game to review Programming.
-\*There different types of programming languages in use.
+- This is Quiz WebSite.
+- Play Quiz And Skill Your Programming learning.
+- In this quiz you will get to review all you know about react, Javascript, css , and git.
+- Play this game to review Programming.
+- There different types of programming languages in use.
 
 ### Programming-Hero
 
